@@ -1,33 +1,39 @@
 {
   "expo": {
-    "name": "cntextbook-new",
-    "slug": "cntextbook-new",
-    "version": "1.0.0",
+    "name": "CN교과서",
+    "slug": "caa",
+    "version": "3.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFBB6A"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jhyunwoo.caa"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFBB6A"
+      },
+      "package": "kr.moveto.cntextbook",
+      "versionCode": 12
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "729ce88d-6fb3-4ea2-9e5b-6ca148851b60"
+      }
     }
   }
 }
