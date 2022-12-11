@@ -2,7 +2,7 @@
   "expo": {
     "name": "CN교과서",
     "slug": "caa",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -25,7 +25,7 @@
         "backgroundColor": "#FFBB6A"
       },
       "package": "kr.moveto.cntextbook",
-      "versionCode": 12
+      "versionCode": 13
     },
     "web": {
       "favicon": "./assets/favicon.png"

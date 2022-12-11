@@ -163,15 +163,15 @@ export default function MainPage({ navigation }) {
     })
 
     return isLoading || version === '0' ? (
-        <SafeAreaProvider
+        <View
             style={{
-                backgroundColor: '#FFBB6A',
+                backgroundColor: isDark ? 'black' : '#FFBB6A',
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
             }}>
             <Text style={{ fontSize: 40, fontWeight: '600', color: 'white' }}>Loading...</Text>
-        </SafeAreaProvider>
+        </View>
     ) : (
         <SafeAreaProvider style={styles.mainBackground}>
             <Header test={test} isDark={isDark} />

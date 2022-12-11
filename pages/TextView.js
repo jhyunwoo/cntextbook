@@ -115,7 +115,7 @@ export default function TextView({ navigation }) {
     return isLoading ? (
         <View
             style={{
-                backgroundColor: '#FFBB6A',
+                backgroundColor: isDark ? 'black' : '#FFBB6A',
                 flex: 1,
                 justifyContent: 'center',
                 alignItems: 'center',
